@@ -4,5 +4,5 @@
 @tailwind utilities;
 
 body {
-  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont;
 }
