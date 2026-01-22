@@ -17,8 +17,8 @@ export default function Contact() {
               transition={{ duration: 0.7, ease: 'easeOut' }}
               className="
             rounded-2xl
-            bg-primary/5
-            border border-primary/10
+          bg-white
+            border border-slate-200
             px-8 py-10
             text-center
           "
@@ -37,41 +37,45 @@ export default function Contact() {
               <a
                   href="mailto:saptarshii.sd@gmail.com"
                   className="
-                flex items-center gap-2
-                px-4 py-2
-                rounded-lg
-                bg-white
-                text-sm
-                text-slate-700
-                hover:text-primary
-                transition
-              "
+      flex items-center gap-2
+      px-4 py-2
+      rounded-lg
+      bg-slate-50
+      text-sm
+      text-slate-700
+      hover:bg-slate-100
+      hover:text-slate-900
+      transition
+    "
               >
-                <img src={emailIcon} className="w-5 h-5 opacity-80" />
+                <img src={emailIcon} className="w-5 h-5 opacity-60" />
                 <span className="font-medium">
-                saptarshii.sd@gmail.com
-              </span>
+      saptarshii.sd@gmail.com
+    </span>
               </a>
 
               <a
                   href="tel:+917797082347"
                   className="
-                flex items-center gap-2
-                px-4 py-2
-                rounded-lg
-                bg-white
-                text-sm
-                text-slate-700
-                hover:text-primary
-                transition
-              "
+      flex items-center gap-2
+      px-4 py-2
+      rounded-lg
+      bg-slate-50
+      text-sm
+      text-slate-700
+      hover:bg-slate-100
+      hover:text-slate-900
+      transition
+    "
               >
-                <img src={phoneIcon} className="w-5 h-5 opacity-80" />
+                <img src={phoneIcon} className="w-5 h-5 opacity-60" />
                 <span className="font-medium">
-                +91&nbsp;7797082347
-              </span>
+      +91&nbsp;7797082347
+    </span>
               </a>
             </div>
+
+
 
             {/* Divider */}
             <div className="my-6 h-px bg-primary/10" />

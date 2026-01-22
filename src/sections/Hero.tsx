@@ -26,7 +26,15 @@ export default function Hero() {
 
             {/* COVER */}
             <div
-                className="h-[280px] w-full bg-no-repeat bg-cover bg-center"
+                className="
+                w-full
+                bg-no-repeat
+                bg-cover
+                bg-center
+                h-[180px]
+                sm:h-[220px]
+                md:h-[280px]
+              "
                 style={{ backgroundImage: `url(${cover})` }}
             />
 
@@ -39,7 +47,16 @@ export default function Hero() {
                         initial={{ opacity: 0, scale: 0.96 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.9, ease: 'easeOut' }}
-                        className="relative -mt-20 mb-6 w-44 h-44"
+                        className="
+                          relative
+                          -mt-14
+                          sm:-mt-16
+                          md:-mt-20
+                          mb-6
+                          w-32 h-32
+                          sm:w-36 sm:h-36
+                          md:w-44 md:h-44
+                        "
                     >
                         <div className="absolute inset-0 rounded-full ring-2 ring-primary/40 pointer-events-none" />
                         <div className="w-full h-full rounded-full overflow-hidden bg-slate-200">
