@@ -32,52 +32,47 @@ export default function Contact() {
               Open to backend roles, collaborations, and interesting conversations.
             </p>
 
-            {/* Email + Phone */}
-            <div className="flex flex-col items-center gap-2">
-              <a
-                  href="mailto:saptarshii.sd@gmail.com"
-                  className="
-      flex items-center gap-2
-      px-4 py-2
-      rounded-lg
-      bg-slate-50
-      text-sm
-      text-slate-700
-      hover:bg-slate-100
-      hover:text-slate-900
-      transition
-    "
-              >
-                <img src={emailIcon} className="w-5 h-5 opacity-60" />
-                <span className="font-medium">
-      saptarshii.sd@gmail.com
-    </span>
-              </a>
+              {/* Email + Phone */}
+              <div className="flex flex-col items-center gap-2">
+                  <a
+                      href="mailto:saptarshii.sd@gmail.com"
+                      className="
+                          flex items-center gap-2
+                          text-sm
+                          text-slate-700
+                          hover:text-slate-900
+                          hover:underline
+                          transition
+                        "
+                  >
+                      <img src={emailIcon} className="w-5 h-5 opacity-50" />
+                      <span className="font-medium">
+                          saptarshii.sd@gmail.com
+                      </span>
+                  </a>
 
-              <a
-                  href="tel:+917797082347"
-                  className="
-      flex items-center gap-2
-      px-4 py-2
-      rounded-lg
-      bg-slate-50
-      text-sm
-      text-slate-700
-      hover:bg-slate-100
-      hover:text-slate-900
-      transition
-    "
-              >
-                <img src={phoneIcon} className="w-5 h-5 opacity-60" />
-                <span className="font-medium">
+                  <a
+                      href="tel:+917797082347"
+                      className="
+                          flex items-center gap-2
+                          text-sm
+                          text-slate-700
+                          hover:text-slate-900
+                          hover:underline
+                          transition
+                        "
+                  >
+                      <img src={phoneIcon} className="w-5 h-5 opacity-50" />
+                      <span className="font-medium">
       +91&nbsp;7797082347
     </span>
-              </a>
-            </div>
+                  </a>
+              </div>
 
 
 
-            {/* Divider */}
+
+              {/* Divider */}
             <div className="my-6 h-px bg-primary/10" />
 
             {/* Minimal Form */}
