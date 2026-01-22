@@ -45,7 +45,7 @@ export default function Contact() {
                           transition
                         "
                   >
-                      <img src={emailIcon} className="w-5 h-5 opacity-50" />
+                      <img src={emailIcon} className="w-5 h-5 opacity-100" />
                       <span className="font-medium">
                           saptarshii.sd@gmail.com
                       </span>
@@ -62,7 +62,7 @@ export default function Contact() {
                           transition
                         "
                   >
-                      <img src={phoneIcon} className="w-5 h-5 opacity-50" />
+                      <img src={phoneIcon} className="w-5 h-5 opacity-100" />
                       <span className="font-medium">
       +91&nbsp;7797082347
     </span>
